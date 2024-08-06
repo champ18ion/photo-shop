@@ -2,6 +2,7 @@ import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 import App from './Components/App';
+import './style.css'
 import {BrowserRouter as Router} from "react-router-dom"
 
 import {ContextProvider} from "./Context"
